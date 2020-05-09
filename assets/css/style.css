@@ -140,8 +140,16 @@ section {
 }
 /*What We Do End*/
 /*What You Do Start*/
-.steps {
+.step {
     background: #fce138;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 /*What You Do End*/
 .section-title {
@@ -166,6 +174,13 @@ section {
       font-size: 46px;
       flex: 1 30%;
   }
+
+.steps {
+    background: #fce138;
+}
+
+
+
   .step-text p {
       color: #39a6b2;
       font-size: 18px;
@@ -289,7 +304,6 @@ section {
       border: none;
       background: #fce138;
       color: #024e76;
-
       text-align: center;
       padding: 15px 0;
       font-size: 16px;
